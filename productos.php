@@ -11,7 +11,7 @@
                 <form action="guardar.php" method="POST">
 
                     <div class="form-group">
-                        <input type="int" name="id" class="form-control" placeholder="Código producto" autofocus required>
+                        <input type="number" name="id" class="form-control" placeholder="Código producto" autofocus required >
                     </div>
                     <div class="form-group">
                         <input type="text" name="nombre" class="form-control" placeholder="Nombre" autofocus required>
@@ -20,16 +20,16 @@
                         <input type="text" name="referencia" class="form-control" placeholder="Referencia" autofocus required>
                     </div>
                     <div class="form-group">
-                        <input type="int" name="precio" class="form-control" placeholder="Precio" autofocus required>
+                        <input type="number" name="precio" class="form-control" placeholder="Precio" autofocus required>
                     </div>
                     <div class="form-group">
-                        <input type="int" name="peso" class="form-control" placeholder="Peso" autofocus required>
+                        <input type="number" name="peso" class="form-control" placeholder="Peso" autofocus required>
                     </div>
                     <div class="form-group">
                         <input type="text" name="categoria" class="form-control" placeholder="Categoria" autofocus required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="stock" class="form-control" placeholder="Stock" autofocus required>
+                        <input type="number" name="stock" class="form-control" placeholder="Stock" autofocus required>
                     </div>
                     <div class="form-group">
                         <input type="date" name="fecha" class="form-control" placeholder="Fecha registro" autofocus required>
