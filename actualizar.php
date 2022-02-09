@@ -48,16 +48,16 @@ if (isset($_POST['update'])) {
                         <input type="text" name="txtRef" class="form-control" value="<?php echo $referencia; ?>" placeholder="Referencia" required>
                     </div>
                     <div class="form-group">
-                        <input type="int" name="txtPrecio" class="form-control" value="<?php echo $precio; ?>" placeholder="Precio" required>
+                        <input type="number" name="txtPrecio" class="form-control" value="<?php echo $precio; ?>" placeholder="Precio" required>
                     </div>
                     <div class="form-group">
-                        <input type="int" name="txtPeso" class="form-control" value="<?php echo $peso; ?>" placeholder="Peso" required>
+                        <input type="number" name="txtPeso" class="form-control" value="<?php echo $peso; ?>" placeholder="Peso" required>
                     </div>
                     <div class="form-group">
                         <input type="text" name="txtCat" class="form-control" value="<?php echo $categoria; ?>" placeholder="Categoria" required> 
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtStock" class="form-control" value="<?php echo $stock; ?>" placeholder="Stock" required>
+                        <input type="number" name="txtStock" class="form-control" value="<?php echo $stock; ?>" placeholder="Stock" required>
                     </div>
                     <div class="form-group">
                         <input type="date" name="dateFecha" class="form-control" value="<?php echo $fecha; ?>" required>
